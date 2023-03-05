@@ -1,0 +1,6 @@
+framework module Pods_my_ios_RedSo_new_ {
+  umbrella header "Pods-my_ios_RedSo(new)-umbrella.h"
+
+  export *
+  module * { export * }
+}

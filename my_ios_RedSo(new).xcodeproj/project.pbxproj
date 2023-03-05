@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		419A9BD429B4A0C600D8A5DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A9BD329B4A0C600D8A5DC /* AppDelegate.swift */; };
 		419A9BD629B4A0C600D8A5DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A9BD529B4A0C600D8A5DC /* SceneDelegate.swift */; };
-		419A9BD829B4A0C600D8A5DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A9BD729B4A0C600D8A5DC /* ViewController.swift */; };
-		419A9BDB29B4A0C600D8A5DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419A9BD929B4A0C600D8A5DC /* Main.storyboard */; };
+		419A9BD829B4A0C600D8A5DC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A9BD729B4A0C600D8A5DC /* MainViewController.swift */; };
 		419A9BDD29B4A0C900D8A5DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419A9BDC29B4A0C900D8A5DC /* Assets.xcassets */; };
 		419A9BE029B4A0C900D8A5DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419A9BDE29B4A0C900D8A5DC /* LaunchScreen.storyboard */; };
+		419A9BE929B4A4D000D8A5DC /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A9BE829B4A4D000D8A5DC /* MainPageViewController.swift */; };
+		419A9BEB29B4A55A00D8A5DC /* InformationTableViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A9BEA29B4A55A00D8A5DC /* InformationTableViewContoller.swift */; };
+		419A9BEE29B4A5FA00D8A5DC /* RedSoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A9BED29B4A5FA00D8A5DC /* RedSoData.swift */; };
+		419A9BF029B4A65800D8A5DC /* StoreHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A9BEF29B4A65800D8A5DC /* StoreHTTPClient.swift */; };
+		419A9BF429B4A70200D8A5DC /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A9BF329B4A70200D8A5DC /* URL+Extension.swift */; };
+		419A9BF729B4A79000D8A5DC /* InformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A9BF629B4A79000D8A5DC /* InformationTableViewCell.swift */; };
+		419A9BF929B4A79D00D8A5DC /* BannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A9BF829B4A79D00D8A5DC /* BannerTableViewCell.swift */; };
+		419A9BFB29B4A7AD00D8A5DC /* LoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A9BFA29B4A7AD00D8A5DC /* LoadingTableViewCell.swift */; };
+		419A9BFD29B4AEEE00D8A5DC /*  String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A9BFC29B4AEEE00D8A5DC /*  String+Extension.swift */; };
+		864ABECE2A03E7FDB07E550E /* Pods_my_ios_RedSo_new_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77A914F4C5FD6F42635E40A /* Pods_my_ios_RedSo_new_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30FE0697856AECFEEE7CD675 /* Pods-my_ios_RedSo(new).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my_ios_RedSo(new).release.xcconfig"; path = "Target Support Files/Pods-my_ios_RedSo(new)/Pods-my_ios_RedSo(new).release.xcconfig"; sourceTree = "<group>"; };
+		3D1FD330A04CE29C8E71FBF2 /* Pods-my_ios_RedSo(new).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my_ios_RedSo(new).debug.xcconfig"; path = "Target Support Files/Pods-my_ios_RedSo(new)/Pods-my_ios_RedSo(new).debug.xcconfig"; sourceTree = "<group>"; };
 		419A9BD029B4A0C600D8A5DC /* my_ios_RedSo(new).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my_ios_RedSo(new).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		419A9BD329B4A0C600D8A5DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		419A9BD529B4A0C600D8A5DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		419A9BD729B4A0C600D8A5DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		419A9BDA29B4A0C600D8A5DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		419A9BD729B4A0C600D8A5DC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		419A9BDC29B4A0C900D8A5DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		419A9BDF29B4A0C900D8A5DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		419A9BE129B4A0C900D8A5DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419A9BE829B4A4D000D8A5DC /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		419A9BEA29B4A55A00D8A5DC /* InformationTableViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTableViewContoller.swift; sourceTree = "<group>"; };
+		419A9BED29B4A5FA00D8A5DC /* RedSoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedSoData.swift; sourceTree = "<group>"; };
+		419A9BEF29B4A65800D8A5DC /* StoreHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreHTTPClient.swift; sourceTree = "<group>"; };
+		419A9BF329B4A70200D8A5DC /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		419A9BF629B4A79000D8A5DC /* InformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTableViewCell.swift; sourceTree = "<group>"; };
+		419A9BF829B4A79D00D8A5DC /* BannerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableViewCell.swift; sourceTree = "<group>"; };
+		419A9BFA29B4A7AD00D8A5DC /* LoadingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingTableViewCell.swift; sourceTree = "<group>"; };
+		419A9BFC29B4AEEE00D8A5DC /*  String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " String+Extension.swift"; sourceTree = "<group>"; };
+		C77A914F4C5FD6F42635E40A /* Pods_my_ios_RedSo_new_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_my_ios_RedSo_new_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864ABECE2A03E7FDB07E550E /* Pods_my_ios_RedSo_new_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0757462FE10534262370CB34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D1FD330A04CE29C8E71FBF2 /* Pods-my_ios_RedSo(new).debug.xcconfig */,
+				30FE0697856AECFEEE7CD675 /* Pods-my_ios_RedSo(new).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		419A9BC729B4A0C600D8A5DC = {
 			isa = PBXGroup;
 			children = (
 				419A9BD229B4A0C600D8A5DC /* my_ios_RedSo(new) */,
 				419A9BD129B4A0C600D8A5DC /* Products */,
+				0757462FE10534262370CB34 /* Pods */,
+				D9931EEE10FA38FD157DEE1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +90,69 @@
 			children = (
 				419A9BD329B4A0C600D8A5DC /* AppDelegate.swift */,
 				419A9BD529B4A0C600D8A5DC /* SceneDelegate.swift */,
-				419A9BD729B4A0C600D8A5DC /* ViewController.swift */,
-				419A9BD929B4A0C600D8A5DC /* Main.storyboard */,
+				419A9BF229B4A6E600D8A5DC /* Extension */,
+				419A9BF129B4A65C00D8A5DC /* Client */,
+				419A9BEC29B4A5E200D8A5DC /* Models */,
+				419A9BE729B4A4AD00D8A5DC /* Controller */,
+				419A9BF529B4A76F00D8A5DC /* View */,
 				419A9BDC29B4A0C900D8A5DC /* Assets.xcassets */,
 				419A9BDE29B4A0C900D8A5DC /* LaunchScreen.storyboard */,
 				419A9BE129B4A0C900D8A5DC /* Info.plist */,
 			);
 			path = "my_ios_RedSo(new)";
+			sourceTree = "<group>";
+		};
+		419A9BE729B4A4AD00D8A5DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				419A9BD729B4A0C600D8A5DC /* MainViewController.swift */,
+				419A9BE829B4A4D000D8A5DC /* MainPageViewController.swift */,
+				419A9BEA29B4A55A00D8A5DC /* InformationTableViewContoller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		419A9BEC29B4A5E200D8A5DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				419A9BED29B4A5FA00D8A5DC /* RedSoData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		419A9BF129B4A65C00D8A5DC /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				419A9BEF29B4A65800D8A5DC /* StoreHTTPClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		419A9BF229B4A6E600D8A5DC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				419A9BF329B4A70200D8A5DC /* URL+Extension.swift */,
+				419A9BFC29B4AEEE00D8A5DC /*  String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		419A9BF529B4A76F00D8A5DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				419A9BF629B4A79000D8A5DC /* InformationTableViewCell.swift */,
+				419A9BF829B4A79D00D8A5DC /* BannerTableViewCell.swift */,
+				419A9BFA29B4A7AD00D8A5DC /* LoadingTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9931EEE10FA38FD157DEE1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C77A914F4C5FD6F42635E40A /* Pods_my_ios_RedSo_new_.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 419A9BE429B4A0C900D8A5DC /* Build configuration list for PBXNativeTarget "my_ios_RedSo(new)" */;
 			buildPhases = (
+				397FB58977CF20ABA9B80888 /* [CP] Check Pods Manifest.lock */,
 				419A9BCC29B4A0C600D8A5DC /* Sources */,
 				419A9BCD29B4A0C600D8A5DC /* Frameworks */,
 				419A9BCE29B4A0C600D8A5DC /* Resources */,
+				7F71A099E7433339012DD307 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +217,69 @@
 			files = (
 				419A9BE029B4A0C900D8A5DC /* LaunchScreen.storyboard in Resources */,
 				419A9BDD29B4A0C900D8A5DC /* Assets.xcassets in Resources */,
-				419A9BDB29B4A0C600D8A5DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		397FB58977CF20ABA9B80888 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-my_ios_RedSo(new)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F71A099E7433339012DD307 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-my_ios_RedSo(new)/Pods-my_ios_RedSo(new)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-my_ios_RedSo(new)/Pods-my_ios_RedSo(new)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-my_ios_RedSo(new)/Pods-my_ios_RedSo(new)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		419A9BCC29B4A0C600D8A5DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				419A9BD829B4A0C600D8A5DC /* ViewController.swift in Sources */,
+				419A9BF729B4A79000D8A5DC /* InformationTableViewCell.swift in Sources */,
+				419A9BE929B4A4D000D8A5DC /* MainPageViewController.swift in Sources */,
+				419A9BF429B4A70200D8A5DC /* URL+Extension.swift in Sources */,
+				419A9BEE29B4A5FA00D8A5DC /* RedSoData.swift in Sources */,
+				419A9BEB29B4A55A00D8A5DC /* InformationTableViewContoller.swift in Sources */,
+				419A9BF929B4A79D00D8A5DC /* BannerTableViewCell.swift in Sources */,
+				419A9BD829B4A0C600D8A5DC /* MainViewController.swift in Sources */,
+				419A9BFB29B4A7AD00D8A5DC /* LoadingTableViewCell.swift in Sources */,
 				419A9BD429B4A0C600D8A5DC /* AppDelegate.swift in Sources */,
+				419A9BFD29B4AEEE00D8A5DC /*  String+Extension.swift in Sources */,
+				419A9BF029B4A65800D8A5DC /* StoreHTTPClient.swift in Sources */,
 				419A9BD629B4A0C600D8A5DC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +287,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		419A9BD929B4A0C600D8A5DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				419A9BDA29B4A0C600D8A5DC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		419A9BDE29B4A0C900D8A5DC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +414,7 @@
 		};
 		419A9BE529B4A0C900D8A5DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1FD330A04CE29C8E71FBF2 /* Pods-my_ios_RedSo(new).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +425,6 @@
 				INFOPLIST_FILE = "my_ios_RedSo(new)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +442,7 @@
 		};
 		419A9BE629B4A0C900D8A5DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FE0697856AECFEEE7CD675 /* Pods-my_ios_RedSo(new).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +453,6 @@
 				INFOPLIST_FILE = "my_ios_RedSo(new)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
