@@ -41,7 +41,6 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .black
         setupNavigation()
         setupUI()
         setupMainPageViewController()
@@ -50,7 +49,6 @@ class MainViewController: UIViewController {
     }
     
     //MARK: - setup UI
-    
     private func setupUI() {
         self.view.addSubview(segmentedControl)
         self.view.addSubview(mainPageViewController.view)
@@ -78,7 +76,6 @@ class MainViewController: UIViewController {
 
     private func setupNavigation(){
         navigationItem.titleView = titleLabelView
-        self.navigationController?.toolbar.backgroundColor = .black
     }
     
     //處理UISegmentedControl翻頁控制
