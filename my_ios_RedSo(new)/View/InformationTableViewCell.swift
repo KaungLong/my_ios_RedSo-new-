@@ -40,8 +40,6 @@ class InformationTableViewCell: UITableViewCell {
     
     let avatarImageView:UIImageView = {
         let avatarImageView = UIImageView()
-//        avatarImageView.frame.size.width = 130
-//        avatarImageView.frame.size.height = 130
         avatarImageView.backgroundColor = .black
         avatarImageView.image = UIImage(systemName: "")
         avatarImageView.translatesAutoresizingMaskIntoConstraints   = false

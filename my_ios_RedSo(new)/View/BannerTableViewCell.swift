@@ -13,6 +13,7 @@ class BannerTableViewCell: UITableViewCell {
     
     static let identifier = "BannerTableViewCell"
     
+    //MARK: - UI
     let bannerImagerView:UIImageView = {
         let bannerImagerView = UIImageView()
         bannerImagerView.backgroundColor = .black
